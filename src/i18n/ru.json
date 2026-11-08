@@ -1,0 +1,160 @@
+{
+  "app": {
+    "name": "CuraMed",
+    "tagline": "Районная поликлиника — онлайн очередь"
+  },
+  "nav": {
+    "home": "Главная",
+    "appointments": "Мои талоны",
+    "profile": "Профиль",
+    "logout": "Выйти",
+    "queue": "Очередь",
+    "admin": "Панель управления",
+    "audit": "Журнал аудита",
+    "settings": "Настройки"
+  },
+  "auth": {
+    "title": "Вход в систему",
+    "subtitle": "Введите номер телефона. Вам придёт SMS с кодом подтверждения.",
+    "phonePlaceholder": "+998 XX XXX XX XX",
+    "sendOtp": "Отправить код",
+    "otpTitle": "Код подтверждения",
+    "otpSubtitle": "Введите 6-значный код, отправленный на {{phone}}.",
+    "otpPlaceholder": "123456",
+    "verifyOtp": "Подтвердить",
+    "changePhone": "Изменить номер",
+    "otpHint": "Для демо: код 123456",
+    "invalidOtp": "Неверный код. Попробуйте снова.",
+    "otpNotRequested": "Сначала запросите SMS-код.",
+    "sending": "Отправка...",
+    "verifying": "Проверка...",
+    "roles": {
+      "patient": "Пациент",
+      "doctor": "Врач",
+      "registrar": "Регистратура",
+      "admin": "Администратор"
+    }
+  },
+  "specialty": {
+    "therapist": "Терапевт",
+    "cardiologist": "Кардиолог",
+    "neurologist": "Невролог",
+    "pediatrician": "Педиатр",
+    "surgeon": "Хирург",
+    "ophthalmologist": "Офтальмолог"
+  },
+  "patient": {
+    "pickSpecialty": "Выберите специальность",
+    "pickDoctor": "Выберите врача",
+    "compareDoctors": "Сравнить врачей",
+    "bookSlot": "Записаться",
+    "myTickets": "Мои талоны",
+    "activeTicket": "Активный талон",
+    "noTickets": "Нет активных талонов",
+    "waitEstimate": "Ожидаемое время ожидания",
+    "queuePosition": "Номер в очереди",
+    "qrTicket": "QR-талон",
+    "qrRefreshes": "Код обновляется каждые 30 секунд",
+    "reviewDoctor": "Оценить",
+    "cancel": "Отменить",
+    "confirmCancel": "Отменить запись?",
+    "slotAvailable": "Свободно",
+    "slotTaken": "Занято",
+    "noSlots": "Нет свободных слотов на сегодня",
+    "selectDate": "Выберите дату",
+    "reviews": "Отзывы",
+    "rating": "Рейтинг",
+    "reviewCount": "На основе {{count}} отзывов"
+  },
+  "doctor": {
+    "todayQueue": "Очередь на сегодня",
+    "callNext": "Вызвать следующего",
+    "priorityInsert": "Экстренная вставка",
+    "priorityReason": "Укажите причину (обязательно)",
+    "completeVisit": "Завершить приём",
+    "noPatients": "Пациентов на сегодня нет",
+    "patientCalled": "{{name}} вызван(а)",
+    "autoComplete": "Автозавершение через: {{sec}} с.",
+    "offlineMode": "Офлайн-режим",
+    "manualAdvance": "Ручное продвижение"
+  },
+  "registrar": {
+    "bookForPatient": "Записать пациента",
+    "walkIn": "Пациент с визитом",
+    "patientPhone": "Телефон пациента",
+    "findPatient": "Найти пациента",
+    "bookOnBehalf": "Записать",
+    "registrarNote": "Записано через регистратуру"
+  },
+  "admin": {
+    "dashboard": "Панель управления",
+    "kpi": {
+      "avgWait": "Среднее ожидание (мин)",
+      "noShowRate": "Не явившиеся (%)",
+      "patientsPerDoctor": "Пациентов на врача",
+      "completed": "Завершено",
+      "cancelled": "Отменено",
+      "noShow": "Не явились"
+    },
+    "slotConfig": "Настройки времени приёма",
+    "slotDuration": "Длительность приёма (мин)",
+    "noShowWait": "Ожидание неявки (мин)",
+    "saveConfig": "Сохранить",
+    "auditLog": "Журнал аудита",
+    "featureFlags": "Флаги функций",
+    "publicRatings": "Показывать рейтинги публично",
+    "ratingsNote": "В пилотном режиме видно только администратору"
+  },
+  "ticket": {
+    "status": {
+      "booked": "Записан",
+      "checked_in": "Зарегистрирован",
+      "called": "Вызван",
+      "in_progress": "На приёме",
+      "completed": "Завершён",
+      "cancelled": "Отменён",
+      "no_show": "Не явился"
+    }
+  },
+  "review": {
+    "title": "Оценить врача",
+    "punctuality": "Пунктуальность",
+    "explanation": "Ясность объяснения",
+    "communication": "Общение",
+    "submit": "Отправить",
+    "submitted": "Спасибо! Ваша оценка принята.",
+    "template": {
+      "satisfied": "Остался доволен",
+      "punctual": "Приняли вовремя",
+      "clearExplanation": "Объяснил(а) чётко",
+      "friendly": "Приветливое отношение",
+      "longWait": "Долго ждал",
+      "goodOverall": "В целом хорошо"
+    },
+    "anonymousNote": "Отзыв отправляется анонимно",
+    "minCount": "Для отображения рейтинга нужно минимум 10 отзывов"
+  },
+  "notification": {
+    "delay": "Очередь задерживается",
+    "called": "Вас вызвали!",
+    "reminder": "Ваша очередь скоро",
+    "cancelled": "Запись отменена"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "retry": "Повторить",
+    "back": "Назад",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "close": "Закрыть",
+    "yes": "Да",
+    "no": "Нет",
+    "minutes": "мин",
+    "at": "в",
+    "today": "Сегодня",
+    "noData": "Нет данных",
+    "search": "Поиск"
+  }
+}

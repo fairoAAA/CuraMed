@@ -1,0 +1,160 @@
+{
+  "app": {
+    "name": "CuraMed",
+    "tagline": "District Polyclinic — Online Queue"
+  },
+  "nav": {
+    "home": "Home",
+    "appointments": "My Tickets",
+    "profile": "Profile",
+    "logout": "Sign Out",
+    "queue": "Queue",
+    "admin": "Admin Panel",
+    "audit": "Audit Log",
+    "settings": "Settings"
+  },
+  "auth": {
+    "title": "Sign In",
+    "subtitle": "Enter your phone number. You will receive a verification code via SMS.",
+    "phonePlaceholder": "+998 XX XXX XX XX",
+    "sendOtp": "Send Code",
+    "otpTitle": "Verification Code",
+    "otpSubtitle": "Enter the 6-digit code sent to {{phone}}.",
+    "otpPlaceholder": "123456",
+    "verifyOtp": "Verify",
+    "changePhone": "Change Phone",
+    "otpHint": "Demo code: 123456",
+    "invalidOtp": "Invalid code. Please try again.",
+    "otpNotRequested": "Please request an SMS code first.",
+    "sending": "Sending...",
+    "verifying": "Verifying...",
+    "roles": {
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "registrar": "Registrar",
+      "admin": "Administrator"
+    }
+  },
+  "specialty": {
+    "therapist": "General Practitioner",
+    "cardiologist": "Cardiologist",
+    "neurologist": "Neurologist",
+    "pediatrician": "Pediatrician",
+    "surgeon": "Surgeon",
+    "ophthalmologist": "Ophthalmologist"
+  },
+  "patient": {
+    "pickSpecialty": "Select Specialty",
+    "pickDoctor": "Select Doctor",
+    "compareDoctors": "Compare Doctors",
+    "bookSlot": "Book Appointment",
+    "myTickets": "My Tickets",
+    "activeTicket": "Active Ticket",
+    "noTickets": "No active tickets",
+    "waitEstimate": "Estimated Wait Time",
+    "queuePosition": "Queue Position",
+    "qrTicket": "QR Ticket",
+    "qrRefreshes": "Code refreshes every 30 seconds",
+    "reviewDoctor": "Leave Review",
+    "cancel": "Cancel",
+    "confirmCancel": "Cancel this appointment?",
+    "slotAvailable": "Available",
+    "slotTaken": "Taken",
+    "noSlots": "No available slots today",
+    "selectDate": "Select Date",
+    "reviews": "Reviews",
+    "rating": "Rating",
+    "reviewCount": "Based on {{count}} reviews"
+  },
+  "doctor": {
+    "todayQueue": "Today's Queue",
+    "callNext": "Call Next Patient",
+    "priorityInsert": "Emergency Insert",
+    "priorityReason": "Enter reason (required)",
+    "completeVisit": "Complete Visit",
+    "noPatients": "No patients today",
+    "patientCalled": "{{name}} has been called",
+    "autoComplete": "Auto-complete in: {{sec}}s",
+    "offlineMode": "Offline Mode",
+    "manualAdvance": "Manual Advance"
+  },
+  "registrar": {
+    "bookForPatient": "Book for Patient",
+    "walkIn": "Walk-in Patient",
+    "patientPhone": "Patient Phone Number",
+    "findPatient": "Find Patient",
+    "bookOnBehalf": "Book Appointment",
+    "registrarNote": "Booked via registrar"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "kpi": {
+      "avgWait": "Avg. Wait (min)",
+      "noShowRate": "No-show Rate (%)",
+      "patientsPerDoctor": "Patients per Doctor",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "noShow": "No-shows"
+    },
+    "slotConfig": "Slot Duration Settings",
+    "slotDuration": "Slot Duration (min)",
+    "noShowWait": "No-show Wait (min)",
+    "saveConfig": "Save",
+    "auditLog": "Audit Log",
+    "featureFlags": "Feature Flags",
+    "publicRatings": "Show Ratings Publicly",
+    "ratingsNote": "In pilot mode, visible to Admin only"
+  },
+  "ticket": {
+    "status": {
+      "booked": "Booked",
+      "checked_in": "Checked In",
+      "called": "Called",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "no_show": "No Show"
+    }
+  },
+  "review": {
+    "title": "Review Doctor",
+    "punctuality": "Punctuality",
+    "explanation": "Clarity of Explanation",
+    "communication": "Communication",
+    "submit": "Submit",
+    "submitted": "Thank you! Your review has been received.",
+    "template": {
+      "satisfied": "Satisfied with service",
+      "punctual": "Seen on time",
+      "clearExplanation": "Explained clearly",
+      "friendly": "Friendly attitude",
+      "longWait": "Long wait time",
+      "goodOverall": "Good overall"
+    },
+    "anonymousNote": "Reviews are submitted anonymously",
+    "minCount": "At least 10 reviews needed to display rating"
+  },
+  "notification": {
+    "delay": "Queue is running late",
+    "called": "You have been called!",
+    "reminder": "Your turn is coming up",
+    "cancelled": "Appointment cancelled"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "minutes": "min",
+    "at": "at",
+    "today": "Today",
+    "noData": "No data",
+    "search": "Search"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "app": {
+    "name": "CuraMed",
+    "tagline": "Tuman poliklinikasi — onlayn navbat"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "appointments": "Navbatlarim",
+    "profile": "Profil",
+    "logout": "Chiqish",
+    "queue": "Navbat",
+    "admin": "Boshqaruv paneli",
+    "audit": "Audit jurnali",
+    "settings": "Sozlamalar"
+  },
+  "auth": {
+    "title": "Tizimga kirish",
+    "subtitle": "Telefon raqamingizni kiriting. SMS orqali tasdiqlash kodi yuboriladi.",
+    "phonePlaceholder": "+998 XX XXX XX XX",
+    "sendOtp": "Kodni yuborish",
+    "otpTitle": "Tasdiqlash kodi",
+    "otpSubtitle": "{{phone}} raqamiga yuborilgan 6 xonali kodni kiriting.",
+    "otpPlaceholder": "123456",
+    "verifyOtp": "Tasdiqlash",
+    "changePhone": "Raqamni o'zgartirish",
+    "otpHint": "Demo uchun kod: 123456",
+    "invalidOtp": "Noto'g'ri kod. Qayta urinib ko'ring.",
+    "otpNotRequested": "Avval SMS kod so'rang.",
+    "sending": "Yuborilmoqda...",
+    "verifying": "Tekshirilmoqda...",
+    "roles": {
+      "patient": "Bemor",
+      "doctor": "Shifokor",
+      "registrar": "Registratura",
+      "admin": "Administrator"
+    }
+  },
+  "specialty": {
+    "therapist": "Terapevt",
+    "cardiologist": "Kardiolog",
+    "neurologist": "Neurolog",
+    "pediatrician": "Pediatr",
+    "surgeon": "Jarroh",
+    "ophthalmologist": "Ko'z shifokori"
+  },
+  "patient": {
+    "pickSpecialty": "Mutaxassislik tanlang",
+    "pickDoctor": "Shifokor tanlang",
+    "compareDoctors": "Shifokorlarni solishtirish",
+    "bookSlot": "Navbat olish",
+    "myTickets": "Navbatlarim",
+    "activeTicket": "Faol navbat",
+    "noTickets": "Faol navbatlar yo'q",
+    "waitEstimate": "Taxminiy kutish vaqti",
+    "queuePosition": "Navbat raqami",
+    "qrTicket": "QR chipta",
+    "qrRefreshes": "Kod har 30 soniyada yangilanadi",
+    "reviewDoctor": "Baholash",
+    "cancel": "Bekor qilish",
+    "confirmCancel": "Navbatni bekor qilmoqchimisiz?",
+    "slotAvailable": "Bo'sh",
+    "slotTaken": "Band",
+    "noSlots": "Bugun bo'sh navbatlar yo'q",
+    "selectDate": "Sanani tanlang",
+    "reviews": "Sharhlar",
+    "rating": "Reyting",
+    "reviewCount": "{{count}} ta sharh asosida"
+  },
+  "doctor": {
+    "todayQueue": "Bugungi navbat",
+    "callNext": "Keyingini chaqirish",
+    "priorityInsert": "Favqulodda kiritish",
+    "priorityReason": "Sabab kiriting (majburiy)",
+    "completeVisit": "Tashrif yakunlash",
+    "noPatients": "Bugun navbat yo'q",
+    "patientCalled": "{{name}} chaqirildi",
+    "autoComplete": "Avtomatik yakunlash: {{sec}} soniya",
+    "offlineMode": "Oflayn rejim",
+    "manualAdvance": "Qo'lda o'tkazish"
+  },
+  "registrar": {
+    "bookForPatient": "Bemor uchun navbat olish",
+    "walkIn": "Kelgan bemor",
+    "patientPhone": "Bemor telefon raqami",
+    "findPatient": "Bemorni topish",
+    "bookOnBehalf": "Navbat olish",
+    "registrarNote": "Registratura tomonidan band qilindi"
+  },
+  "admin": {
+    "dashboard": "Boshqaruv paneli",
+    "kpi": {
+      "avgWait": "O'rtacha kutish (daqiqa)",
+      "noShowRate": "Kelmagan bemorlar (%)",
+      "patientsPerDoctor": "Shifokor boshiga bemor",
+      "completed": "Yakunlangan",
+      "cancelled": "Bekor qilingan",
+      "noShow": "Kelmagan"
+    },
+    "slotConfig": "Navbat vaqt sozlamalari",
+    "slotDuration": "Navbat muddati (daqiqa)",
+    "noShowWait": "Kelmagan kutish (daqiqa)",
+    "saveConfig": "Saqlash",
+    "auditLog": "Audit jurnali",
+    "featureFlags": "Funksiya bayroqlari",
+    "publicRatings": "Reytinglarni ochiq ko'rsatish",
+    "ratingsNote": "Pilot rejimda faqat administrator ko'rishi mumkin"
+  },
+  "ticket": {
+    "status": {
+      "booked": "Band qilingan",
+      "checked_in": "Ro'yxatdan o'tgan",
+      "called": "Chaqirilgan",
+      "in_progress": "Qabulda",
+      "completed": "Yakunlangan",
+      "cancelled": "Bekor qilingan",
+      "no_show": "Kelmagan"
+    }
+  },
+  "review": {
+    "title": "Shifokorni baholash",
+    "punctuality": "Vaqtida qabul",
+    "explanation": "Tushuntirish ravshanligI",
+    "communication": "Muloqot madaniyati",
+    "submit": "Yuborish",
+    "submitted": "Rahmat! Bahoyingiz qabul qilindi.",
+    "template": {
+      "satisfied": "Qoniqarli xizmat",
+      "punctual": "Vaqtida qabul qilindi",
+      "clearExplanation": "Aniq tushuntirdi",
+      "friendly": "Mehribon munosabat",
+      "longWait": "Uzoq kutildi",
+      "goodOverall": "Umuman yaxshi"
+    },
+    "anonymousNote": "Sharh anonim yuboriladi",
+    "minCount": "Reyting ko'rsatish uchun kamida 10 ta sharh kerak"
+  },
+  "notification": {
+    "delay": "Navbat kechikmoqda",
+    "called": "Siz chaqirildingiz!",
+    "reminder": "Navbatingiz yaqinlashmoqda",
+    "cancelled": "Navbat bekor qilindi"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "retry": "Qayta urinish",
+    "back": "Orqaga",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "confirm": "Tasdiqlash",
+    "close": "Yopish",
+    "yes": "Ha",
+    "no": "Yo'q",
+    "minutes": "daqiqa",
+    "at": "soat",
+    "today": "Bugun",
+    "noData": "Ma'lumot yo'q",
+    "search": "Qidirish"
+  }
+}
